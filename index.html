@@ -14,7 +14,7 @@
             color: #333;
         }
         header {
-            background-color: #222;
+            background-color: #e63946;
             color: white;
             padding: 20px;
             display: flex;
@@ -25,7 +25,7 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            max-width: 150px; /* Ensures both logos have the same width */
+            max-width: 150px;
         }
         .upper-logo, .lower-logo {
             text-align: left;
@@ -79,7 +79,7 @@
             border-radius: 5px;
         }
         .newsletter button {
-            padding: 15px 30px;
+            padding: 10px 20px;
             font-size: 16px;
             background-color: #e63946;
             color: white;
@@ -104,14 +104,23 @@
             font-size: 64px;
             color: #e63946;
         }
+        .divider {
+            border-top: 2px solid #ddd;
+            margin: 20px 0;
+        }
         .blogs {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
             padding: 20px;
+            text-align: center;
+        }
+        .blogs .center-button {
+            margin: 50px auto;
+            text-align: center;
         }
         .blogs button {
-            padding: 15px 30px;
+            padding: 10px 20px;
             font-size: 16px;
             background-color: #e63946;
             color: white;
@@ -136,6 +145,38 @@
         .blog-card p {
             font-size: 14px;
             color: #555;
+        }
+        .bottom-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #fff;
+            border-top: 2px solid #ddd;
+        }
+        .bottom-section .spreadsheet-signup,
+        .bottom-section .guidebook-ad {
+            flex: 1;
+            padding: 20px;
+        }
+        .spreadsheet-signup h2,
+        .guidebook-ad h2 {
+            font-size: 20px;
+            color: #e63946;
+            margin-bottom: 10px;
+        }
+        .guidebook-ad button,
+        .spreadsheet-signup button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #e63946;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .guidebook-ad button:hover,
+        .spreadsheet-signup button:hover {
+            background-color: #d62828;
         }
         footer {
             text-align: center;
@@ -173,6 +214,7 @@
             <h1>for it.</h1>
         </div>
     </div>
+    <div class="divider"></div>
     <div class="blogs">
         <div class="blog-card">
             <h2>The Road To Your First $10K</h2>
@@ -190,7 +232,22 @@
             <h2>How To Pick A PROFITABLE Niche</h2>
             <p>Figure out how to break the system and find a niche to make you millions.</p>
         </div>
-        <button>Dive Deeper</button>
+        <div class="center-button">
+            <button>Dive Deeper</button>
+        </div>
+    </div>
+    <div class="bottom-section">
+        <div class="spreadsheet-signup">
+            <h2>Get a Free Business Comparison Spreadsheet</h2>
+            <p>Compare service, dropshipping, product, SaaS, blog, and more to find your ideal business type.</p>
+            <input type="email" placeholder="Enter your email">
+            <button>Get Spreadsheet</button>
+        </div>
+        <div class="guidebook-ad">
+            <h2>Hustle Your Way to $1,000,000</h2>
+            <p>Access our in-depth guidebook instantly via email and start building your path to a million dollars.</p>
+            <button>Get the Guidebook</button>
+        </div>
     </div>
     <footer>
         &copy; 2024 Hustle Mentality. All rights reserved.
