@@ -24,7 +24,6 @@
         .logo {
             font-size: 18px;
             font-weight: bold;
-            text-align: center;
         }
         .logo span {
             display: block;
@@ -45,48 +44,59 @@
             font-size: 14px;
             cursor: pointer;
         }
-        .hero {
-            text-align: center;
-            padding: 50px 20px;
-            background-color: #fff;
+        .main-section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .newsletter {
+            flex: 1;
+            padding: 20px;
+        }
+        .newsletter h2 {
+            font-size: 24px;
+        }
+        .newsletter p {
+            font-size: 16px;
             margin-bottom: 20px;
         }
-        .hero h1 {
-            font-size: 36px;
-            margin: 0;
-        }
-        .hero h1 .highlight {
-            font-style: italic;
-            font-size: 48px;
-            color: #e63946;
-        }
-        .signup-box {
-            margin: 20px auto;
-            text-align: center;
-        }
-        .signup-box input[type="email"] {
-            padding: 10px;
-            font-size: 14px;
-            width: 250px;
+        .newsletter input[type="email"] {
+            padding: 15px;
+            font-size: 16px;
+            width: 70%;
             margin-right: 10px;
             border: 1px solid #ddd;
             border-radius: 5px;
         }
-        .signup-box button {
-            padding: 10px 20px;
-            font-size: 14px;
+        .newsletter button {
+            padding: 15px 30px;
+            font-size: 16px;
             background-color: #e63946;
             color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
         }
-        .signup-box button:hover {
+        .newsletter button:hover {
             background-color: #d62828;
+        }
+        .quote {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+        }
+        .quote h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .quote h1 .highlight {
+            font-style: italic;
+            font-size: 48px;
+            color: #e63946;
         }
         .blogs {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 20px;
             padding: 20px;
         }
@@ -127,12 +137,16 @@
             <span class="search-icon">🔍</span>
         </nav>
     </header>
-    <div class="hero">
-        <h1>If you want it, you have to <span class="highlight">HUSTLE</span></h1>
-    </div>
-    <div class="signup-box">
-        <input type="email" placeholder="Enter your email">
-        <button>Sign Up</button>
+    <div class="main-section">
+        <div class="newsletter">
+            <h2>Join Our Newsletter</h2>
+            <p>Get exclusive insights, tips, and strategies delivered straight to your inbox.</p>
+            <input type="email" placeholder="Enter your email">
+            <button>Sign Up</button>
+        </div>
+        <div class="quote">
+            <h1>If you want it, you have to <span class="highlight">HUSTLE</span></h1>
+        </div>
     </div>
     <div class="blogs">
         <div class="blog-card">
