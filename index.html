@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hustle Mentality </title>
+    <title>Hustle Mentality</title>
     <link rel="icon" href="favicon.png" type="image/png">
     <style>
         body {
@@ -16,24 +16,27 @@
         header {
             background-color: #222;
             color: white;
-            padding: 10px 20px;
+            padding: 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
-        .upper logo {
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 150px; /* Ensures both logos have the same width */
+        }
+        .upper-logo, .lower-logo {
+            text-align: left;
+            font-weight: bold;
+            display: block;
+        }
+        .upper-logo {
             font-size: 27px;
-            font-weight: bold;
         }
-        .lower logo {
+        .lower-logo {
             font-size: 18px;
-            font-weight: bold;
-        }
-        .upper logo span {
-            display: block;
-        }
-        .lower logo span {
-            display: block;
         }
         nav {
             display: flex;
@@ -145,11 +148,9 @@
 </head>
 <body>
     <header>
-        <div class="upper logo">
-            <span>HUSTLE</span>
-        </div>
-        <div class="lower logo">
-            <span>MENTALITY</span>
+        <div class="logo-container">
+            <span class="upper-logo">HUSTLE</span>
+            <span class="lower-logo">MENTALITY</span>
         </div>
         <nav>
             <a href="#home">Home</a>
