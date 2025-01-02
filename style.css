@@ -163,6 +163,7 @@ nav a:hover {
     cursor: pointer;
     display: block;
     margin: 0;
+    left: 50%;
 }
 
 .center-button button:hover {
