@@ -153,10 +153,14 @@ nav a:hover {
     color: #555;
 }
 
-.center-button button {
+.center-button-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%; /* Ensure it spans the full width */
+}
+
+.center-button button {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #e63946;
