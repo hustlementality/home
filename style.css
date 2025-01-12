@@ -167,7 +167,7 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #fff;
+    background-color: #f9f9f9;
     border-top: 2px solid #ddd;
 }
 
