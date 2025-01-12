@@ -9,6 +9,10 @@ body {
     color: #333;
 }
 
+body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
+
 header {
     background-color: #E63946;
     color: white;
