@@ -57,7 +57,7 @@ nav a:hover {
 .search-icon {
     font-size: 22px;
     cursor: pointer;
-    vertical-align: text-top;
+    vertical-align: top;
 }
 
 /* Main Section */
