@@ -4,9 +4,9 @@
 body {
     font-family: Calibri, sans-serif;
     margin: 0;
+    padding: 0;
     background-color: #f9f9f9;
     color: #333;
-    padding-top: 58;
 }
 
 header {
@@ -14,11 +14,11 @@ header {
     color: white;
     padding: 14px;
     display: flex;
-    width: calc(100% - 17px);
+    width: calc(100% - 20px);
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    z-index: 1000;
+    position: sticky;
+    top: 0;
 }
 
 .logo-container {
