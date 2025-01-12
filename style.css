@@ -9,19 +9,16 @@ body {
     color: #333;
 }
 
-body::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and Edge */
-}
-
 header {
     background-color: #E63946;
     color: white;
     padding: 14px;
     display: flex;
-    width: 100%;
+    width: calc(100% - 15px);
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    z-index: 1000;
 }
 
 .logo-container {
