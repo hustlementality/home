@@ -204,6 +204,10 @@ nav a:hover {
 .search-container {
     text-align: center;
     padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .search-container h2 {
