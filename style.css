@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #e63946;
+    background-color: #EC1A24;
     color: white;
     padding: 20px;
     display: flex;
@@ -94,7 +94,7 @@ nav a:hover {
 .newsletter button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #e63946;
+    background-color: #EC1A24;
     color: white;
     border: none;
     border-radius: 5px;
@@ -120,7 +120,7 @@ nav a:hover {
 .quote h1 .highlight {
     font-style: italic;
     font-size: 64px;
-    color: #e63946;
+    color: #EC1A24;
 }
 
 .divider {
@@ -165,7 +165,7 @@ nav a:hover {
 .center-button button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #e63946;
+    background-color: #EC1A24;
     color: white;
     border: none;
     border-radius: 5px;
@@ -188,7 +188,7 @@ nav a:hover {
 .spreadsheet-signup h2,
 .guidebook-ad h2 {
     font-size: 20px;
-    color: #e63946;
+    color: #EC1A24;
     margin-bottom: 10px;
 }
 
@@ -204,7 +204,7 @@ nav a:hover {
 .bottom-section button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #e63946;
+    background-color: #EC1A24;
     color: white;
     border: none;
     border-radius: 5px;
@@ -223,7 +223,7 @@ nav a:hover {
 
 .search-container h2 {
     font-size: 32px;
-    color: #e63946;
+    color: #EC1A24;
     margin-bottom: 20px;
 }
 
