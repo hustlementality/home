@@ -25,20 +25,6 @@ header {
     max-width: 150px;
 }
 
-.upper-logo, .lower-logo {
-    text-align: left;
-    font-weight: bold;
-    display: block;
-}
-
-.upper-logo {
-    font-size: 25.5px;
-}
-
-.lower-logo {
-    font-size: 18px;
-}
-
 nav {
     display: flex;
     gap: 13px;
@@ -188,7 +174,7 @@ nav a:hover {
 .spreadsheet-signup h2,
 .guidebook-ad h2 {
     font-size: 20px;
-    color: #E63946;
+    color: #ddd;
     margin-bottom: 10px;
 }
 
