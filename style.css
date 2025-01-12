@@ -55,8 +55,9 @@ nav a:hover {
 }
 
 .search-icon {
-    font-size: 20px;
+    font-size: 22px;
     cursor: pointer;
+    vertical-align: baseline;
 }
 
 /* Main Section */
