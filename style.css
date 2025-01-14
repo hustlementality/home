@@ -116,7 +116,7 @@ nav a:hover {
 
 .quote h1:nth-of-type(3) {
     position: relative;
-    top: -16px; /* Moves it up by 10 pixels */
+    top: -18px; /* Moves it up by 18 pixels */
 }
 
 .divider {
