@@ -98,7 +98,7 @@ nav a:hover {
 .quote {
     flex: 1;
     text-align: center;
-    padding: 26px;
+    padding: 20px;
 }
 
 .quote h1 {
@@ -110,6 +110,7 @@ nav a:hover {
     font-style: italic;
     font-size: 64px;
     color: #E63946;
+    padding-top: 20px;
 }
 
 .divider {
