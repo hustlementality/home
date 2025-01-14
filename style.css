@@ -110,7 +110,8 @@ nav a:hover {
     font-style: italic;
     font-size: 64px;
     color: #E63946;
-    padding-top: 20px;
+    position: relative;
+    top: 10px;
 }
 
 .divider {
