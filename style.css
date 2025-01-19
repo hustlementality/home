@@ -266,7 +266,7 @@ nav a:hover {
 
 /* Suggestion Button */
 .suggestion-button {
-    background-color: #28a745; /* Green background */
+    background-color: #E63946;
     color: white; /* White text */
     padding: 10px 20px; /* Button padding */
     font-size: 16px; /* Font size */
@@ -277,7 +277,7 @@ nav a:hover {
 }
 
 .suggestion-button:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #d62828; /* Darker green on hover */
 }
 
 /* Footer */
