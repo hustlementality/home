@@ -293,8 +293,10 @@ footer {
 .twitter {
   margin-left: 5px;
 }
-feedback-link a {
+.feedback-link a {
     color: white;
     text-decoration: underline;
     font-size: 16px;
+    text-align: right;
+    margin-right: 7px;
 }
