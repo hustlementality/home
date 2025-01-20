@@ -86,14 +86,11 @@
         </div>
     </div>
     <script type="module">
-  // Import the functions you need from the SDKs you need
+  // Import Firebase SDKs
   import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
+  import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore.js";
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  // Firebase configuration
   const firebaseConfig = {
     apiKey: "AIzaSyA2TuqMRw4WKVW7t63fDm0KcFPT_S7ko9A",
     authDomain: "hustle-mentality.firebaseapp.com",
@@ -106,7 +103,39 @@
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+  const db = getFirestore(app);
+
+  // Form handling
+  const emailForm = document.getElementById("emailForm");
+  const emailInput = document.getElementById("emailInput");
+  const statusMessage = document.getElementById("statusMessage");
+
+  emailForm.addEventListener("submit", async (e) => {
+    e.preventDefault(); // Prevent default form submission
+
+    const email = emailInput.value.trim(); // Get the email input value
+    if (!email) {
+      statusMessage.textContent = "Please enter a valid email.";
+      statusMessage.style.color = "red";
+      return;
+    }
+
+    try {
+      // Add email and timestamp to Firestore
+      await addDoc(collection(db, "emails"), {
+        email: email,
+        timestamp: serverTimestamp(), // Add current server time
+      });
+
+      statusMessage.textContent = "Email submitted successfully!";
+      statusMessage.style.color = "green";
+      emailInput.value = ""; // Clear the input field
+    } catch (error) {
+      console.error("Error adding document: ", error);
+      statusMessage.textContent = "An error occurred. Please try again.";
+      statusMessage.style.color = "red";
+    }
+  });
 </script>
 </body>
     <footer>
