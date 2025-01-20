@@ -32,9 +32,12 @@
     <div class="main-section">
         <div class="newsletter">
             <h2>Become a Part of History.</h2>
-            <input type="email" placeholder="Enter your email">
-            <button>Sign Up</button>
+            <form id="emailForm">
+            <input type="email" id="emailInput" placeholder="Email address" required>
+            <button type="submit">Sign Up</button>
             <p>Join now to unlock premium content, plus exclusive insights, tips, and strategies delivered directly to your inbox.</p>
+            </form>
+            <p id="statusMessage"></p>
         </div>
         <div class="quote">
             <h1>If you want something</h1>
