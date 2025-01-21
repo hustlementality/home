@@ -59,7 +59,7 @@ nav a:hover {
     font-size: 16px;
     color: #333;
     width: 100%; /* Fill the width of the container */
-    padding: 10px 10px 10px 30px; /* Adjust padding to make space for the icon */
+    padding: 10px 1px 10px 40px; /* Adjust padding to make space for the icon */
     border: 2px solid #E63946;
     border-radius: 5px;
     outline: none;
@@ -74,7 +74,7 @@ nav a:hover {
 
 .search-icon {
     position: absolute;
-    right: 5px; /* Position the icon to the right */
+    right: 15px; /* Position the icon to the right */
     top: 50%; /* Vertically center the icon */
     transform: translateY(-50%);
     font-size: 20px;
