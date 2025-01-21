@@ -298,5 +298,5 @@ footer {
     text-decoration: underline;
     font-size: 14px;
     margin-right: 7px;
-    align="right"
+    text-align: right;
 }
