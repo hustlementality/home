@@ -47,8 +47,8 @@ nav a:hover {
 
 .search-bar {
     position: relative;
-    width: 100%; /* Make the search bar responsive */
-    max-width: 150px; /* Max width to prevent overflow */
+    width: 150px; /* Make the search bar responsive */
+    max-width: 100%; /* Max width to prevent overflow */
     margin: 0 auto; /* Center horizontally */
     padding: 0 10px; /* Add padding for space */
     box-sizing: border-box; /* Prevents overflow due to padding */
@@ -59,7 +59,7 @@ nav a:hover {
     font-size: 16px;
     color: #333;
     width: 100%; /* Fill the width of the container */
-    padding: 10px 1px 10px 40px; /* Adjust padding to make space for the icon */
+    padding: 10px 30px 10px 10px; /* Adjust padding to make space for the icon */
     border: 2px solid #E63946;
     border-radius: 5px;
     outline: none;
