@@ -74,10 +74,10 @@ nav a:hover {
 
 .search-icon {
     position: absolute;
-    right: 15px; /* Position the icon to the right */
+    right: 20px; /* Position the icon to the right */
     top: 50%; /* Vertically center the icon */
     transform: translateY(-50%);
-    font-size: 20px;
+    font-size: 25px;
     color: #E63946;
     cursor: pointer;
     pointer-events: none;
