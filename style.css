@@ -46,16 +46,18 @@ nav a:hover {
 }
 
 .search-bar {
-    position: relative; /* Allows positioning of child elements */
-    width: 150px; /* Define the width of the search bar */
+    position: relative;
+    width: 150px; /* Fixed width of the search bar */
+    max-width: calc(100% - 20px); /* Ensure it doesn't overflow the page */
+    margin: 0 auto; /* Center horizontally if needed */
 }
 
 .search-input {
     font-family: Calibri, sans-serif;
     font-size: 16px;
     color: #333;
-    width: 100%;
-    padding: 10px 40px 10px 10px; /* Add padding to the right for the icon */
+    width: 100%; /* Keep input within the search-bar container */
+    padding: 10px 40px 10px 10px; /* Adjust padding for the icon and text */
     border: 2px solid #E63946;
     border-radius: 5px;
     outline: none;
@@ -68,15 +70,16 @@ nav a:hover {
 }
 
 .search-icon {
-    position: absolute; /* Position the icon within the input */
-    right: 10px; /* Position it slightly inside the input */
+    position: absolute;
+    right: 10px; /* Position relative to the container */
     top: 50%; /* Vertically center the icon */
-    transform: translateY(-50%); /* Adjust for perfect centering */
+    transform: translateY(-50%);
     font-size: 20px;
     color: #E63946;
     cursor: pointer;
-    pointer-events: none; /* Ensure the icon doesn't block typing */
+    pointer-events: none;
 }
+
 
 
 /* Main Section */
