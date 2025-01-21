@@ -50,6 +50,8 @@ nav a:hover {
     width: 150px; /* Fixed width of the search bar */
     max-width: calc(100% - 20px); /* Ensure it doesn't overflow the page */
     margin: 0 auto; /* Center horizontally if needed */
+    margin-right: 10px;
+    
 }
 
 .search-input {
