@@ -329,12 +329,15 @@ footer {
 .twitter {
   margin-left: 5px;
 }
+.feedback-link {
+    text-align: right; /* Aligns the <a> inside it */
+    width: 100%; /* Ensures the container spans the full width */
+}
 .feedback-link a {
     color: black;
     text-decoration: none;
     font-size: 14px;
     margin-right: 7px;
-    text-align: right;
 }
 .feedback-link a:hover {
     text-decoration: underline;
