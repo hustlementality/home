@@ -57,8 +57,8 @@ nav a:hover {
     background-color: #f9f9f9; /* Matches the body background color */
     border: 2px solid #E63946; /* Matches the header background color */
     border-radius: 5px; /* Smooth corners */
-    padding: 8px 12px; /* Comfortable padding */
-    padding-right: 0px
+    padding: 0px; /* Comfortable padding */
+    margin-right: 0px
     width: 200px; /* Standard width for the input */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
