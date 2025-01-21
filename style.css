@@ -49,7 +49,7 @@ nav a:hover {
     font-size: 30px;
     cursor: pointer;
     position: relative;
-    margin-right: 0; /* Remove margin to make it touch */
+    margin-left: 0; /* Remove margin to make it touch */
 }
 
 .search-input {
