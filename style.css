@@ -47,23 +47,25 @@ nav a:hover {
 
 .search-bar {
     position: relative;
-    width: 150px; /* Fixed width of the search bar */
-    margin: 0 auto; /* Center horizontally if needed */
-    margin-right: 45px;
-    
+    width: 100%; /* Make the search bar responsive */
+    max-width: 150px; /* Max width to prevent overflow */
+    margin: 0 auto; /* Center horizontally */
+    padding: 0 10px; /* Add padding for space */
+    box-sizing: border-box; /* Prevents overflow due to padding */
 }
 
 .search-input {
     font-family: Calibri, sans-serif;
     font-size: 16px;
     color: #333;
-    width: 100%; /* Keep input within the search-bar container */
-    padding: 10px 40px 10px 10px; /* Adjust padding for the icon and text */
+    width: 100%; /* Fill the width of the container */
+    padding: 10px 10px 10px 30px; /* Adjust padding to make space for the icon */
     border: 2px solid #E63946;
     border-radius: 5px;
     outline: none;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensures padding doesn't cause overflow */
 }
 
 .search-input::placeholder {
@@ -72,7 +74,7 @@ nav a:hover {
 
 .search-icon {
     position: absolute;
-    right: 10px; /* Position relative to the container */
+    left: 10px; /* Position the icon to the left */
     top: 50%; /* Vertically center the icon */
     transform: translateY(-50%);
     font-size: 20px;
@@ -80,6 +82,7 @@ nav a:hover {
     cursor: pointer;
     pointer-events: none;
 }
+
 
 
 
