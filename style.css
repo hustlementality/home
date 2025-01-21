@@ -331,8 +331,11 @@ footer {
 }
 .feedback-link a {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 14px;
     margin-right: 7px;
     text-align: right;
+}
+.feedback-link a:hover {
+    text-decoration: underline;
 }
