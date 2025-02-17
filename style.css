@@ -222,9 +222,9 @@ nav a:hover {
 }
 
 .testimonial-img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border-radius: 25%;
     object-fit: cover;
     border: 3px solid #E63946;
 }
