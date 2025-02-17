@@ -222,11 +222,11 @@ nav a:hover {
 }
 
 .testimonial-img {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%; /* Keeps the image circular */
     object-fit: cover; /* Ensures the image maintains its aspect ratio */
-    border: 3.5px solid #E63946; /* Border close to the image */
+    border: 3px solid #E63946; /* Border close to the image */
     display: block; /* Removes any extra inline spacing */
     padding: 0; /* Ensures no extra padding */
     margin: 0; /* Removes any extra margin */
@@ -247,44 +247,6 @@ nav a:hover {
     font-size: 14px;
     font-weight: bold;
     color: #E63946;
-}
-
-/* Bottom Section */
-.bottom-section {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-top: 2px solid #ddd;
-}
-
-.spreadsheet-signup h2,
-.guidebook-ad h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.bottom-section input[type="email"] {
-    padding: 15px;
-    font-size: 16px;
-    width: 70%;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.bottom-section button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #E63946;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.bottom-section button:hover {
-    background-color: #d62828;
 }
 
 /* Centered Search Section */
