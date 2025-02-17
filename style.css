@@ -224,12 +224,12 @@ nav a:hover {
 .testimonial-img {
     width: 90px;
     height: 90px;
-    border-radius: 50%; /* Keeps the image circular */
-    object-fit: cover; /* Ensures the image maintains its aspect ratio */
-    border: 3px solid #E63946; /* Border close to the image */
-    display: block; /* Removes any extra inline spacing */
-    padding: 0; /* Ensures no extra padding */
-    margin: 0; /* Removes any extra margin */
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: inset 0 0 0 3px #E63946; /* Inner border effect */
+    display: block;
+    padding: 0;
+    margin: 0;
 }
 
 
