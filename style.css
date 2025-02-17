@@ -222,13 +222,13 @@ nav a:hover {
 }
 
 .testimonial-img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%; /* Keeps the image circular */
     object-fit: cover; /* Ensures the image maintains its aspect ratio */
-    border: 3px solid #E63946; /* Border close to the image */
+    border: 2px solid #E63946; /* Border close to the image */
     display: block; /* Removes any extra inline spacing */
-    padding: 5; /* Ensures no extra padding */
+    padding: 0; /* Ensures no extra padding */
     margin: 0; /* Removes any extra margin */
 }
 
