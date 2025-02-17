@@ -209,6 +209,42 @@ nav a:hover {
     background-color: #d62828;
 }
 
+.success-story {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #E63946;
+}
+
+.testimonial-content {
+    flex: 1;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    font-style: italic;
+    color: #333;
+}
+
+.testimonial-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #E63946;
+}
+
 /* Bottom Section */
 .bottom-section {
     display: flex;
